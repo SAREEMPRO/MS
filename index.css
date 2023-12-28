@@ -739,6 +739,53 @@ body.menu-active {
         z-index: 1002;
     }
 }
+/* Existing styles */
+
+.card-tittle img,
+.card-tittle1 img,
+.card-tittle2 img {
+    width: 100%;
+    max-width: 160px; 
+}
+
+.card-container1,
+.card-container2,
+.card-container3 {
+    padding: 20px;
+}
+
+.about-card {
+    width: 100%;
+    max-width: 300px; 
+    margin: 1rem; 
+}
+
+
+@media (min-width: 600px) {
+    .card-container1,
+    .card-container2,
+    .card-container3 {
+        padding: 40px;
+    }
+
+    .about-card {
+        max-width: 600px; 
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .card-container1,
+    .card-container2,
+    .card-container3 {
+        padding: 50px;
+    }
+
+    .about-card {
+        max-width: 800px; 
+    }
+   
+}
 
 
 @media only screen and (max-width: 1260px) {
@@ -758,7 +805,7 @@ form h2{
     .logo img {
         width: 8%;
     }
-
+  
     section {
         min-height: 97vh;
     }
@@ -797,15 +844,22 @@ form h2{
         margin-bottom: -1rem;
     }
     .about-card:first-child p {
-        width: 200%;
+        width: 125%;
         
         }
         .about1{
             display: flex;
             flex-direction: column-reverse;
-            align-items: flex-end;
+        
             width: 100%;
             
+        }
+        .about-card:last-child{
+            width: 100%;
+            display: flex;
+            height: 53vh;
+            flex-direction: column-reverse;
+         
         }
     .info-box p {}
 }
@@ -818,6 +872,13 @@ form h2{
         padding-right: 35px;
       
     }
+    #train {
+        left: 0; 
+      }
+    
+      #man {
+        left: 0; 
+      }
     .contact .innerLayer{
         display: flex;
         flex-direction: column-reverse;
@@ -890,6 +951,55 @@ form h2{
         padding: 0.2rem 0.5rem;
         
     }
+    .flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .card-container1,
+    .card-container2,
+    .card-container3 {
+       width: 100%;
+    }
+    .card-tittle img,
+.card-tittle1 img,
+.card-tittle2 img {
+    width: 100%;
+    max-width: 150px; 
+}
+.card-tittle h2,
+.card-tittle1 h2,
+.card-tittle2 h2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-tittle p,
+.card-tittle1 p,
+.card-tittle2 p{
+    width: 100%;
+   
+}
+
+    .about-card:first-child p {
+        width: 105%;
+        
+        }
+       
+        .about1{
+            display: flex;
+            flex-direction: column-reverse;
+        
+            width: 100%;
+            
+        }
+        .about-card:last-child{
+            width: 100%;
+            display: flex;
+            height: 53vh;
+            flex-direction: column-reverse;
+         
+        }
 }
 
 @media only screen and (max-width: 600px) {
@@ -903,6 +1013,19 @@ form h2{
         padding-right: 45px;
       
     }
+    .about-card:last-child{
+        width: 100%;
+        display: flex;
+        height: 27vh;
+        flex-direction: column-reverse;
+     
+    }
+    
+    .about-card:first-child p {
+        width: 130%;
+        font-size: 15px;
+        
+        }
     .product-card {
         display: flex;
         flex-direction: column;
@@ -1013,7 +1136,13 @@ form h2{
         background: #1d002c;
 
     }
-
+    #train {
+        left: 0; 
+      }
+    
+      #man {
+        left: 0; 
+      }
     .btn {
 
         padding: 0.2rem 0.5rem;
@@ -1029,7 +1158,7 @@ form h2{
 }
 @media only screen and (max-width: 450px){
     section {
-        min-height: 31vh;
+        min-height: 28vh;
     }
     .parallax-home {
         padding-top: 50px;
@@ -1038,6 +1167,13 @@ form h2{
         padding-right: 105px;
       
     }
+    #train {
+        left: 0; 
+      }
+    
+      #man {
+        left: 0; 
+      }
     .info .btn{
       font-size: 15px;
     }
@@ -1062,7 +1198,19 @@ form h2{
     .about-waterfall {
         padding-top: 65px;
     }
-
+    .about-card:last-child{
+        width: 100%;
+        display: flex;
+        height: 27vh;
+        flex-direction: column-reverse;
+     
+    }
+    
+    .about-card:first-child p {
+        width: 120%;
+        font-size: 15px;
+        
+        }
     .info-box h2 {
         font-size: 25px;
         font-size: 1rem;
@@ -1094,7 +1242,13 @@ form h2{
     .parallax-home {
         padding-top: 50px;
     }
-
+    #train {
+        left: 0; 
+      }
+    
+      #man {
+        left: 0; 
+      }
     .product-card {
         display: flex;
         flex-direction: column;
@@ -1123,6 +1277,19 @@ form h2{
         background: #1d002c;
 
     }
+    .about-card:last-child{
+        width: 100%;
+        display: flex;
+        height: 27vh;
+        flex-direction: column-reverse;
+     
+    }
+    
+    .about-card:first-child p {
+        width: 110%;
+        font-size: 15px;
+        
+        }
 
     .btn {
 
@@ -1145,7 +1312,27 @@ form h2{
     .container{
         margin-right: 50px;
     }
+    .about-card:last-child{
+        width: 100%;
+        display: flex;
+        height: 27vh;
+        flex-direction: column-reverse;
+     
+    }
+    
+    .about-card:first-child p {
+        width: 105%;
+        font-size: 15px;
+        
+        }
 }
+#train {
+    left: 0; 
+  }
+
+  #man {
+    left: 0; 
+  }
 
 @media only screen and (max-width: 350px){
     section {
@@ -1154,6 +1341,13 @@ form h2{
     .parallax-home #text{
         font-size: 20px;
     }
+    #train {
+        left: 0; 
+      }
+    
+      #man {
+        left: 0; 
+      }
     .parallax-home {
         padding-top: 50px;
     }
@@ -1214,4 +1408,17 @@ form h2{
         
       
     }
+    .about-card:last-child{
+        width: 100%;
+        display: flex;
+        height: 27vh;
+        flex-direction: column-reverse;
+     
+    }
+    
+    .about-card:first-child p {
+        width: 95%;
+        font-size: 15px;
+        
+        }
 }
