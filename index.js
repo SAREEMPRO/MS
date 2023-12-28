@@ -9,8 +9,8 @@ let value = window.scrollY;
 moon.style.top = value * .7 + "px";
 text.style.top = 80 + value * -0.2 + '%';
 train.style.left = value * 1.5 + "px"; 
-desert_moon.style.top = value * .3 + "px";
-man.style.left = value * .7 + "px"; 
+desert_moon.style.top = value * .4 + "px";
+man.style.left = value * .9 + "px"; 
 
 
 })

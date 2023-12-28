@@ -1038,6 +1038,12 @@ form h2{
         padding-right: 105px;
       
     }
+    .info .btn{
+      font-size: 15px;
+    }
+    .card{
+        width: 100%;
+    }
     .contact .content h2{
         width: 105%;
         font-size: 30px;
